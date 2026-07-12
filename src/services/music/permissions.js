@@ -4,7 +4,7 @@ export const VOICE_CHANNEL_DENIAL =
 export function canControlMusic(member, player) {
     const memberChannel = member?.voice?.channel;
     if (!memberChannel || !player?.voiceChannel) {
-        return false;
+        return true;
     }
     return memberChannel.id === player.voiceChannel;
 }
