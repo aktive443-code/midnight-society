@@ -463,7 +463,7 @@ export const botConfig = {
     utility: true,
     community: true,
     fun: true,
-  },mmusic true,
+  }, music: true,
 };
 
 export function validateConfig(config) {
