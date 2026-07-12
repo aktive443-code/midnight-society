@@ -24,9 +24,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
-        // Activity type number (0 = Playing).
-        type: 0,
+        name: "pornhub:black_circle: :orange_circle: ",
+        // Activity type number (1000000000 = Playing).
+        type: 3,
       },
     ],
   },
